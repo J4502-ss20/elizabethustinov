@@ -1,0 +1,73 @@
+p {
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+
+
+h1 {
+	font-family: "Playfair Display", Georgia, sans-serif;
+	font-weight: 700;
+	font-size: 1.5em;
+}
+
+a:link, a:visited {
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 1em;
+	color: #d57070;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #70d5d5;
+}
+
+li {
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 1em;
+	color: black;
+	list-style-type: none;
+	padding: 3px;
+}
+
+#container {
+	width: 95%;
+	margin: 0 auto;
+}
+
+#nav {
+	padding: 0;
+	list-style-type: none;
+}
+
+#nav li {
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px solid #ffffff;
+}
+
+#nav a:link, #nav a:visited {
+	display: block;
+	color: #ffffff;
+	background-color: #d57070;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	padding: 4px;
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+
+#nav a:hover, #nac a:active {
+	background-color: #e5a9a9;
+}
+
+#footer {
+	color: grey;
+	font-family: "Playfair Display", Georgia, sans-serif;
+	font-size: 0.8em;
+	font-weight: normal;
+}
+
+.logo {
+	padding: 3px;
+}
