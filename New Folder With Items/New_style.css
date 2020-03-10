@@ -43,7 +43,6 @@ li {
 #nav li {
 	margin: 0;
 	padding: 0;
-	border-bottom: 1px solid #ffffff;
 }
 
 #nav a:link, #nav a:visited {
@@ -58,7 +57,7 @@ li {
 }
 
 #nav a:hover, #nac a:active {
-	background-color: #e5a9a9;
+	color: #e5a9a9;
 }
 
 #footer {
@@ -70,4 +69,23 @@ li {
 
 .logo {
 	padding: 3px;
+}
+
+.navcontainer {
+	padding: 10px;
+	background: #e8e9e9;
+  border-radius: 10px;
+	margin: 45px auto;
+}
+.item {
+	color: #000;
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+	padding: 15px;
+	margin: 5px;
+	background: #d57070;
+	border-radius: 7px;
+}
+
+* {
+	box-sizing: border-box;
 }
