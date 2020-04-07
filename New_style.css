@@ -7,6 +7,14 @@ h1 {
 	font-family: "Playfair Display", Georgia, sans-serif;
 	font-weight: 700;
 	font-size: 1.5em;
+	color: #b3b3b3;
+}
+
+h2 {
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+	font-weight: 700;
+	font-size: 1.1em;
+	color: #d57070;
 }
 
 a:link, a:visited {
@@ -31,7 +39,7 @@ li {
 }
 
 #container {
-	width: 95%;
+	width: 80%;
 	margin: 0 auto;
 }
 
@@ -77,15 +85,115 @@ li {
   border-radius: 10px;
 	margin: 45px auto;
 }
-.item {
-	color: #000;
+.navitem {
+	color: #fff;
 	font-family: "Lato", Helvetica, Arial, sans-serif;
-	padding: 15px;
+	/*padding: 15px; */
 	margin: 5px;
 	background: #d57070;
 	border-radius: 7px;
+	text-shadow: 0 2px 0 rgba(110,133,156,0.18);
+	padding: 0.85em;
 }
+
 
 * {
 	box-sizing: border-box;
+}
+
+.cards {
+    max-width: 1300px;
+    margin: 0 auto 1em auto;
+    background-color: #fff;
+    padding: 20px;
+
+	}
+
+.grid {
+	   max-width: 1200px;
+	   margin: 0 auto 1em auto;
+	   background-color: #fff;
+     padding: 20px;
+
+	}
+
+.item {
+	 padding: 0.85em;
+
+	}
+
+
+/*My flexbox1.css file wasn't working so here's the code for the grid */
+
+@media screen and (min-width: 450px) {
+
+    .cards {
+        flex-flow: column;
+        justify-content: space-between;
+
+    }
+
+}
+
+@media screen and (min-width:800px) {
+  .cards {
+    display: grid;
+    grid-template-columns: 300px 300px 2fr;
+    grid-gap: 20px;
+    grid-template-areas:
+        "a b b"
+        "c d d"
+        "e f f";
+
+  }
+
+
+.workimage {
+    grid-area: a;
+  }
+
+
+  .worktext {
+    grid-area: b;
+		max-width: 500px;
+		min-width: 300px;
+  }
+
+	.workimage1 {
+		grid-area: c;
+	}
+
+
+
+	.worktext1 {
+		grid-area: d;
+		max-width: 500px;
+	}
+
+	.workimage2 {
+		grid-area: e;
+	}
+
+
+	.worktext2 {
+		grid-area: f;
+		max-width: 500px;
+	}
+
+}
+
+@media screen and (min-width:1300px) {
+  .cards {
+    display: grid;
+    grid-template-columns: 300px 1fr 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-areas:
+        "a . ."
+        "b b ."
+				"c . ."
+        "d d ."
+				"e . ."
+				"f f .";
+  }
+
 }
