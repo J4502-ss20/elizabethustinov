@@ -130,8 +130,11 @@ article {
 	   margin: 0 auto 1em auto;
 	   background-color: #fff;
      padding: 20px;
-
+		 display: flex;
+ 		flex-flow: column;
+ 		justify-content: space-between;
 	}
+
 
 /*
 @media screen and (min-width: 450px) {
@@ -191,13 +194,13 @@ article {
 			}
 		}
 
-@media screen and (max-width:600px) {
+/* @media screen and (max-width:600px) {
 		article {
 		  display: flex;
 			flex-flow: column;
 			justify-content: space-between;
 
-		}
+		} */
 
  /* Javascript Menu starts here !!!! */
 
