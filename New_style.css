@@ -110,20 +110,6 @@ footer {
 
 /* Grid code for work section*/
 
-/* I tried to make a new div for my text to be in a single column and act as a flexbox but that didn't work either
-.workflex {
- display: flex;
- flex-direction: column;
-}
-
-@media (min-width: 600px) {
-	 .workflex {
-		 flex-direction: row;
-		 justify-content: center;
-		 width: 100%;
-	 }
-}
-*/
 
 article {
 	   max-width: 1200px;
@@ -131,23 +117,12 @@ article {
 	   background-color: #fff;
      padding: 20px;
 		 display: flex;
- 		flex-flow: column;
- 		justify-content: space-between;
+ 		 flex-flow: column;
+ 		 justify-content: space-between;
 	}
 
 
-/*
-@media screen and (min-width: 450px) {
 
-    article {
-				display: flex;
-        flex-flow: column;
-        justify-content: space-between;
-
-    }
-
-}
-*/
 
 @media screen and (min-width:700px) {
   article {
@@ -194,13 +169,6 @@ article {
 			}
 		}
 
-/* @media screen and (max-width:600px) {
-		article {
-		  display: flex;
-			flex-flow: column;
-			justify-content: space-between;
-
-		} */
 
  /* Javascript Menu starts here !!!! */
 
